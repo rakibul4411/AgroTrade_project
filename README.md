@@ -23,6 +23,7 @@ o Angular7
 o Bootstrap4
 --------------
 o TypeScript
+-----------
 Feature: 1. JWT Token Based Authentication
 2. Admin can Insert, Update, Delete all data such as user data, product info, market details, farmers details etc.
 3. User/visitor can see all information about product for compare and buy
