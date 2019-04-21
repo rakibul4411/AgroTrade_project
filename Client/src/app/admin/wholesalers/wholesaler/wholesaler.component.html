@@ -1,0 +1,48 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+  <input type="hidden" name="Whole_Saler_ID" #Whole_Saler_ID="ngModel" [(ngModel)]="service.formData.whole_Saler_ID">
+  
+  <div class="form-group">
+    <label style="color:black;">Whole Saler Name:</label>
+    <input name="Whole_Saler_Name" #Whole_Saler_Name="ngModel" [(ngModel)]="service.formData.whole_Saler_Name" class="form-control" required>
+    <div class="validation-error" *ngIf="Whole_Saler_Name.invalid && Whole_Saler_Name.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Whole Saler Buying Cost:</label>
+    <input name="Whole_Saler_Buying_Cost" #Whole_Saler_Buying_Cost="ngModel" [(ngModel)]="service.formData.whole_Saler_Buying_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Whole_Saler_Buying_Cost.invalid && Whole_Saler_Buying_Cost.touched">This field is required.</div>
+  </div>
+
+  <div class="form-group">
+    <label style="color:black;">Whole Saler Transportation Cost:</label>
+    <input name="Whole_Saler_Transportation_Cost" #Whole_Saler_Transportation_Cost="ngModel" [(ngModel)]="service.formData.whole_Saler_Transportation_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Whole_Saler_Transportation_Cost.invalid && Whole_Saler_Transportation_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Whole_Saler_Storing_Cost:</label>
+    <input name="Whole_Saler_Storing_Cost" #Whole_Saler_Storing_Cost="ngModel" [(ngModel)]="service.formData.whole_Saler_Storing_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Whole_Saler_Storing_Cost.invalid && Whole_Saler_Storing_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Whole Saler Total Cost:</label>
+    <input name="Whole_Saler_Total_Cost" #Whole_Saler_Total_Cost="ngModel" [(ngModel)]="service.formData.whole_Saler_Total_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Whole_Saler_Total_Cost.invalid && Whole_Saler_Total_Cost.touched">This field is required.</div>
+  </div>
+
+
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label style="color:black;">Whole_Saler_Selling_Price:</label>
+      <input name="Whole_Saler_Selling_Price" #Whole_Saler_Selling_Price="ngModel" [(ngModel)]="service.formData.whole_Saler_Selling_Price" class="form-control">
+     <div class="validation-error" *ngIf="Whole_Saler_Selling_Price.invalid && Whole_Saler_Selling_Price.touched">This field is required.</div>
+    </div>
+
+    <!--<div class="form-group  col-md-6">
+      <label>MOBILE</label>
+      <input name="Mobile" #Mobile="ngModel" [(ngModel)]="service.formData.Mobile" class="form-control">
+    </div>-->
+    
+  </div>
+  <div class="form-group col-md-3">
+    <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+  </div>
+</form>

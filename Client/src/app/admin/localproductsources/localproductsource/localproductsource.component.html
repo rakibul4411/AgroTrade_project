@@ -1,0 +1,62 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+
+    <div class="form-row">
+
+        <div class="form-group col-md-4">
+            <label style="color:red;">Products Table:</label>
+           <input>
+           </div>
+        <div class="form-group  col-md-4">
+          <label  style="color:red;">Products ID:</label>
+          <input>
+        </div>
+        <div class="form-group col-md-4">
+          <label style="color:red;">Farmer ID:</label>
+         <input>
+         </div>
+      </div>
+
+  <input type="hidden" name="Local_Product_Source_ID" #Local_Product_Source_ID="ngModel" [(ngModel)]="service.formData.local_Product_Source_ID">
+  <div class="form-group">
+    <label style="color:black;">Seeding Cost:</label>
+    <input name="Seeding_Cost" #Seeding_Cost="ngModel" [(ngModel)]="service.formData.seeding_Cost" class="form-control" required>
+    <div class="validation-error" *ngIf="Seeding_Cost.invalid && Seeding_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Ploughing Cost:</label>
+    <input name="Ploughing_Cost" #Ploughing_Cost="ngModel" [(ngModel)]="service.formData.ploughing_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Ploughing_Cost.invalid && Ploughing_Cost.touched">This field is required.</div>
+  </div>
+
+  <div class="form-group">
+    <label style="color:black;">Watering Cost:</label>
+    <input name="Watering_Cost" #Watering_Cost="ngModel" [(ngModel)]="service.formData.watering_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Watering_Cost.invalid && Watering_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Labour Cost:</label>
+    <input name="Labour_Cost" #Labour_Cost="ngModel" [(ngModel)]="service.formData.labour_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Labour_Cost.invalid && Labour_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Processing Cost:</label>
+    <input name="Processing_Cost" #Processing_Cost="ngModel" [(ngModel)]="service.formData.processing_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Processing_Cost.invalid && Processing_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label style="color:black;">Total Production Cost:</label>
+      <input name="Total_Production_Cost" #Total_Production_Cost="ngModel" [(ngModel)]="service.formData.total_Production_Cost" class="form-control">
+     <div class="validation-error" *ngIf="Total_Production_Cost.invalid && Total_Production_Cost.touched">This field is required.</div>
+    </div>
+
+    <!--<div class="form-group  col-md-6">
+      <label>MOBILE</label>
+      <input name="Mobile" #Mobile="ngModel" [(ngModel)]="service.formData.Mobile" class="form-control">
+    </div>-->
+    
+  </div>
+  <div class="form-group col-md-3">
+    <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+  </div>
+</form>

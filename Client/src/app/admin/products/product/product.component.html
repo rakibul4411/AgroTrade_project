@@ -1,0 +1,48 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+
+    <div class="form-row">
+        <div class="form-group col-md-4">
+          <label style="color:red;">Product Category ID:</label>
+         <input>
+         </div>
+         
+        <div class="form-group  col-md-4">
+          <label  style="color:red;">Products Unit ID:</label>
+          <input>
+        </div>
+        <div class="form-group  col-md-4">
+            <label  style="color:red;">Market ID:</label>
+            <input>
+          </div>
+    </div>
+
+  <input type="hidden" name="Product_ID" #Product_ID="ngModel" [(ngModel)]="service.formData.product_ID">
+  <div class="form-group">
+    <label style="color:black;">Product Name:</label>
+    <input name="Product_Name" #Product_Name="ngModel" [(ngModel)]="service.formData.product_Name" class="form-control" required>
+    <div class="validation-error" *ngIf="Product_Name.invalid && Product_Name.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Product Details:</label>
+    <input name="Details" #Details="ngModel" [(ngModel)]="service.formData.details" class="form-control">
+    <div class="validation-error" *ngIf="Details.invalid && Details.touched">This field is required.</div>
+  </div>
+
+  
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label style="color:black;">Product Source:</label>
+      <input name="Product_Source" #Product_Source="ngModel" [(ngModel)]="service.formData.product_Source" class="form-control">
+     <div class="validation-error" *ngIf="Product_Source.invalid && Product_Source.touched">This field is required.</div>
+    </div>
+
+    <!--<div class="form-group  col-md-6">
+      <label>MOBILE</label>
+      <input name="Mobile" #Mobile="ngModel" [(ngModel)]="service.formData.Mobile" class="form-control">
+    </div>-->
+    
+  </div>
+  <div class="form-group col-md-3">
+    <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+  </div>
+</form>

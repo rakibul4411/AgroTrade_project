@@ -1,0 +1,41 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+    <input type="hidden" name="Retailer_ID" #Retailer_ID="ngModel" [(ngModel)]="service.formData.retailer_ID">
+    <div class="form-group">
+      <label style="color:black;">Retailer Name:</label>
+      <input name="Retailer_Name" #Retailer_Name="ngModel" [(ngModel)]="service.formData.retailer_Name" class="form-control" required>
+      <div class="validation-error" *ngIf="Retailer_Name.invalid && Retailer_Name.touched">This field is required.</div>
+    </div>
+    <div class="form-group">
+      <label style="color:black;">Retailers Buying Price:</label>
+      <input name="Retailers_Buying_Price" #Retailers_Buying_Price="ngModel" [(ngModel)]="service.formData.retailers_Buying_Price" class="form-control">
+      <div class="validation-error" *ngIf="Retailers_Buying_Price.invalid && Retailers_Buying_Price.touched">This field is required.</div>
+    </div>
+
+    <div class="form-group">
+      <label style="color:black;">Transportation Cost:</label>
+      <input name="Transportation_Cost" #Transportation_Cost="ngModel" [(ngModel)]="service.formData.transportation_Cost" class="form-control">
+      <div class="validation-error" *ngIf="Transportation_Cost.invalid && Transportation_Cost.touched">This field is required.</div>
+    </div>
+    <div class="form-group">
+      <label style="color:black;">TotalCost PerUnit:</label>
+      <input name="Total_Cost_PerUnit" #Total_Cost_PerUnit="ngModel" [(ngModel)]="service.formData.total_Cost_PerUnit" class="form-control">
+      <div class="validation-error" *ngIf="Total_Cost_PerUnit.invalid && Total_Cost_PerUnit.touched">This field is required.</div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label style="color:black;">Retailer Selling_Price:</label>
+        <input name="Retailer_Selling_Price" #Retailer_Selling_Price="ngModel" [(ngModel)]="service.formData.retailer_Selling_Price" class="form-control">
+       <div class="validation-error" *ngIf="Retailer_Selling_Price.invalid && Retailer_Selling_Price.touched">This field is required.</div>
+      </div>
+
+      <!--<div class="form-group  col-md-6">
+        <label>MOBILE</label>
+        <input name="Mobile" #Mobile="ngModel" [(ngModel)]="service.formData.Mobile" class="form-control">
+      </div>-->
+      
+    </div>
+    <div class="form-group col-md-6">
+      <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+    </div>
+  </form>

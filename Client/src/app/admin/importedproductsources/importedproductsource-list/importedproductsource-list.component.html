@@ -1,0 +1,23 @@
+<table class="table table-hover">
+    <tr>
+      <th>Imported_Product_Buying_Cost</th>
+      <th>Shipment_Cost</th>
+      <th>Custom_Tax</th>
+      <th>Transportation_Cost</th>
+      <th>Storing_Cost</th>
+      <th>Total_Cost</th>
+      <th>Importers_WholeSale_Price</th>
+    </tr>
+      <tr *ngFor="let ips of service.list">
+        <!--<td (click)="populateForm(far)">[{{far.EMPCode}}]-{{far.Farmer_Name}}</td>-->
+        <td (click)="populateForm(ips)">{{ips.imported_Product_Buying_Cost}}</td>
+        <td (click)="populateForm(ips)">{{ips.shipment_Cost}}</td>
+        <td (click)="populateForm(ips)">{{ips.custom_Tax}}</td>
+        <td (click)="populateForm(ips)">{{ips.transportation_Cost}}</td>
+        <td (click)="populateForm(ips)">{{ips.storing_Cost}}</td>
+        <td (click)="populateForm(ips)">{{ips.total_Cost}}</td>
+        <td (click)="populateForm(ips)">{{ips.importers_WholeSale_Price}}</td>
+        <td><button (click)="onDelete(ips.imported_Product_Source_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+      </tr>
+    </table>
+   

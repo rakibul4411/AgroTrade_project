@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <tr>
+    <th>Seeding Cost</th>
+    <th>Ploughing Cost</th>
+    <th>Watering Cost</th>
+    <th>Labour_Cost</th>
+    <th>Processing_Cost</th>
+    <th>Total Production Cost</th>
+  </tr>
+    <tr *ngFor="let lps of service.list">
+      <!--<td (click)="populateForm(far)">[{{far.EMPCode}}]-{{far.Farmer_Name}}</td>-->
+      <td (click)="populateForm(lps)">{{lps.Seeding_Cost}}</td>
+      <td (click)="populateForm(lps)">{{lps.Ploughing_Cost}}</td>
+      <td (click)="populateForm(lps)">{{lps.Watering_Cost}}</td>
+      <td (click)="populateForm(lps)">{{lps.Labour_Cost}}</td>
+      <td (click)="populateForm(lps)">{{lps.Processing_Cost}}</td>
+      <td (click)="populateForm(lps)">{{lps.Total_Production_Cost}}</td>
+      <td><button (click)="onDelete(lps.local_Product_Source_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+    </tr>
+  </table>

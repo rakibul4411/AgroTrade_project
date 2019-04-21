@@ -1,0 +1,55 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+
+    <div class="form-row">
+
+        <div class="form-group col-md-4">
+            <label style="color:red;">Products Table:</label>
+           <input>
+           </div>
+        <div class="form-group col-md-4">
+          <label style="color:red;">Product_ID:</label>
+         <input>
+         </div>
+    </div>
+
+  <input type="hidden" name="Imported_Product_Source_ID" #Imported_Product_Source_ID="ngModel" [(ngModel)]="service.formData.imported_Product_Source_ID">
+  <div class="form-group">
+    <label style="color:black;">Imported_Product_Buying_Cost:</label>
+    <input name="Imported_Product_Buying_Cost" #Imported_Product_Buying_Cost="ngModel" [(ngModel)]="service.formData.imported_Product_Buying_Cost" class="form-control" required>
+    <div class="validation-error" *ngIf="Imported_Product_Buying_Cost.invalid && Imported_Product_Buying_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+    <label style="color:black;">Shipment_Cost:</label>
+    <input name="Shipment_Cost" #Shipment_Cost="ngModel" [(ngModel)]="service.formData.shipment_Cost" class="form-control">
+    <div class="validation-error" *ngIf="Shipment_Cost.invalid && Shipment_Cost.touched">This field is required.</div>
+  </div>
+  <div class="form-group">
+      <label style="color:black;">Custom_Tax:</label>
+      <input name="Custom_Tax" #Custom_Tax="ngModel" [(ngModel)]="service.formData.custom_Tax" class="form-control" required>
+      <div class="validation-error" *ngIf="Custom_Tax.invalid && Custom_Tax.touched">This field is required.</div>
+    </div>
+    <div class="form-group">
+      <label style="color:black;">Transportation_Cost:</label>
+      <input name="Transportation_Cost" #Transportation_Cost="ngModel" [(ngModel)]="service.formData.transportation_Cost" class="form-control">
+      <div class="validation-error" *ngIf="Transportation_Cost.invalid && Transportation_Cost.touched">This field is required.</div>
+    </div>
+    <div class="form-group">
+        <label style="color:black;">Storing_Cost:</label>
+        <input name="Storing_Cost" #Storing_Cost="ngModel" [(ngModel)]="service.formData.storing_Cost" class="form-control" required>
+        <div class="validation-error" *ngIf="Storing_Cost.invalid && Storing_Cost.touched">This field is required.</div>
+      </div>
+      <div class="form-group">
+        <label style="color:black;">Total_Cost:</label>
+        <input name="Total_Cost" #Total_Cost="ngModel" [(ngModel)]="service.formData.total_Cost" class="form-control">
+        <div class="validation-error" *ngIf="Total_Cost.invalid && Total_Cost.touched">This field is required.</div>
+      </div>
+      <div class="form-group">
+          <label style="color:black;">Importers_WholeSale_Price:</label>
+          <input name="Importers_WholeSale_Price" #Importers_WholeSale_Price="ngModel" [(ngModel)]="service.formData.importers_WholeSale_Price" class="form-control">
+          <div class="validation-error" *ngIf="Importers_WholeSale_Price.invalid && Importers_WholeSale_Price.touched">This field is required.</div>
+        </div>
+
+  <div class="form-group col-md-3">
+    <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+  </div>
+</form>

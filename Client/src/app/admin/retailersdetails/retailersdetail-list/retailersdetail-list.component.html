@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <tr>
+    <th> Retailer Name</th>
+    <th> Retailers Buying Price</th>
+    <th>Transportation Cost</th>
+    <th>Total Cost PerUnit</th>
+    <th> Retailer_Selling_Price</th>
+    
+  </tr>
+    <tr *ngFor="let rd of service.list">
+      <!--<td (click)="populateForm(far)">[{{far.EMPCode}}]-{{far.Farmer_Name}}</td>-->
+      <td (click)="populateForm(rd)">{{rd.retailer_Name}}</td>
+      <td (click)="populateForm(rd)">{{rd.retailers_Buying_Price}}</td>
+      <td (click)="populateForm(rd)">{{rd.transportation_Cost}}</td>
+      <td (click)="populateForm(rd)">{{rd.total_Cost_PerUnit}}</td>
+      <td (click)="populateForm(rd)">{{rd.retailer_Selling_Price}}</td>
+      <td><button (click)="onDelete(rd.retailer_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+    </tr>
+  </table>
+ 

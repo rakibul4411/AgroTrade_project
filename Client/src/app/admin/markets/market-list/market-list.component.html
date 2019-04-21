@@ -1,0 +1,18 @@
+<table class="table table-hover">
+  <tr>
+    <th>Market Name</th>
+    <th> Market Address</th>
+    <th>Post Code</th>
+    <th>District</th>
+    <th>Country Name</th>
+  </tr>
+    <tr *ngFor="let mar of service.list">
+      <!--<td (click)="populateForm(far)">[{{far.EMPCode}}]-{{far.Farmer_Name}}</td>-->
+      <td (click)="populateForm(mar)">{{mar.market_Name}}</td>
+      <td (click)="populateForm(mar)">{{mar.market_Address}}</td>
+      <td (click)="populateForm(mar)">{{mar.post_Code}}</td>
+      <td (click)="populateForm(mar)">{{mar.district}}</td>
+      <td (click)="populateForm(mar)">{{mar.country_Name}}</td>
+      <td><button (click)="onDelete(mar.market_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+    </tr>
+  </table>

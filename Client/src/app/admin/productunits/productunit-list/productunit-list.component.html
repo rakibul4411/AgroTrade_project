@@ -1,0 +1,20 @@
+<div class="col-md-6">
+  <table class="table table-hover">
+    <tr>
+      <th>Product Unit</th>
+    </tr>
+      <tr *ngFor="let pu of service.list">
+      
+        <td (click)="populateForm(pu)">{{pu.product_Unit_Quantity}} TON</td>
+        
+        <td><button (click)="onDelete(pu.product_Unit_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+      </tr>
+    </table>
+    <div>
+      <h3>N.B.</h3>
+      <p>
+        U.S. Ton = 907.185 kg (2,000 lbs) <br/>
+        Metric Ton (Tonne) = 1000 kg (2,204.62 lbs)       
+     </p>
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+<table class="table table-hover">
+  <tr>
+    <th>W_S Name</th>
+    <th>W_S Buying_Cost</th>
+    <th>W_S Transportation_Cost</th>
+    <th>W_S Storing_Cost</th>
+    <th>W_S Total_Cost</th>
+    <th>W_S Selling_Price</th>
+  </tr>
+    <tr *ngFor="let ws of service.list">
+      <!--<td (click)="populateForm(far)">[{{far.EMPCode}}]-{{far.Farmer_Name}}</td>-->
+      <td (click)="populateForm(ws)">{{ws.whole_Saler_Name}}</td>
+      <td (click)="populateForm(ws)">{{ws.whole_Saler_Buying_Cost}}</td>
+      <td (click)="populateForm(ws)">{{ws.whole_Saler_Transportation_Cost}}</td>
+      <td (click)="populateForm(ws)">{{ws.whole_Saler_Storing_Cost}}</td>
+      <td (click)="populateForm(ws)">{{ws.whole_Saler_Total_Cost}}</td>
+      <td (click)="populateForm(ws)">{{ws.whole_Saler_Selling_Price}}</td>
+      <td><button (click)="onDelete(ws.whole_Saler_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+    </tr>
+  </table>
+ 

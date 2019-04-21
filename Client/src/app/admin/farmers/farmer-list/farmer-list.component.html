@@ -1,0 +1,15 @@
+<table class="table table-hover">
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone Number</th>
+  </tr>
+    <tr *ngFor="let far of service.list">
+      <!--<td (click)="populateForm(far)">[{{far.EMPCode}}]-{{far.Farmer_Name}}</td>-->
+      <td (click)="populateForm(far)">{{far.farmer_Name}}</td>
+      <td (click)="populateForm(far)">{{far.address}}</td>
+      <td (click)="populateForm(far)">{{far.phone}}</td>
+      <td><button (click)="onDelete(far.farmer_ID)" class="btn btn-sm btn-outline-danger">Delete</button></td>
+    </tr>
+  </table>
+ 

@@ -1,0 +1,125 @@
+<a class="navbar-brand" href="#">AgriculturalProducts</a>
+  <!-- First one-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo   <a class="navbar-brand" href="#">AgriculturalProducts</a> -->
+    <!-- Links -->
+    <ul class="nav navbar-nav">
+      <div>
+          <button class="dropbtn" routerLink="/home">Home</button>
+
+      </div>
+       <div>
+          <button class="dropbtn" routerLink="/products">Products</button>
+        </div>
+      <div>
+          <button class="dropbtn" routerLink="/productcategories">Product Category</button>
+      </div>
+      <div>
+          <button class="dropbtn" routerLink="/productunit">Product Unit</button>
+        </div>  
+      
+    <div>
+      <button class="dropbtn" routerLink="/traderslists">Trader Lists</button>
+   </div>
+      <div>
+          <button class="dropbtn" routerLink="/tradercategories">Trader Categories</button>
+      </div>
+
+	    
+      <div>
+        <button class="dropbtn" routerLink="/localtradersdetails">local Traders Details</button>
+      </div>
+      <div>
+        <button class="dropbtn" routerLink="/localtraderorderdetails">local Traders Order Details</button>
+      </div>
+      <div>
+        <button class="dropbtn" routerLink="/wholesalers">Whole Salers</button>
+    </div>
+    <div>
+      <button class="dropbtn" routerLink="/wholesalerorderdetails">Whole Saler Order</button>
+    </div>
+    <div>
+        <button class="dropbtn" routerLink="/retailersdetails">Retailers Details</button>
+    </div>
+    
+    <div>
+      <button class="dropbtn" routerLink="/retailerorderdetails">Retailers Order Details</button>
+  </div>
+
+  <div>
+    <button class="dropbtn" routerLink="/importedproductsources">Imported Product Sources</button>
+</div>
+
+<div>
+  <button class="dropbtn" routerLink="/localproductsources">Local products Sources</button>
+</div>
+
+<div>
+  <button class="dropbtn" routerLink="/markets">Market</button>
+</div>
+<div>
+  <button class="dropbtn" routerLink="/farmers">Farmers</button>
+</div>
+
+</ul>
+    
+    <ul class="nav navbar-nav navbar-left">
+      <ul>
+          <a [hidden]="token" href="/user/login">
+          <span class="glyphicon glyphicon-log-in"></span> Log in</a>
+        
+      </ul>
+      <ul>
+          <ul *ngIf="token"> 
+            <div class="btn-group"> 
+                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {{userDetails.userName}}
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#"><strong>Name : </strong>{{userDetails.fullName}}</a>
+                  <a class="dropdown-item" href="#"><strong>Email : </strong>{{userDetails.email}}</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="/home" (click) ="Logout()">Logout</a>
+                </div>
+              </div>
+          </ul>
+      </ul>
+    </ul>
+ </nav>      
+  <!--End First one-->
+  <style>
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: #ddd;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    </style>

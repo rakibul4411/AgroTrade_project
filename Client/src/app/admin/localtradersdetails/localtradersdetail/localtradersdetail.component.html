@@ -1,0 +1,42 @@
+<form #form="ngForm" (submit)="onSubmit(form)" autocomplete="off">
+    <input type="hidden" name="Local_Trader_ID" #Local_Trader_ID="ngModel" [(ngModel)]="service.formData.local_Trader_ID">
+    <div class="form-group">
+      <label style="color:black;">Local_Trader Name:</label>
+      <input name="Local_Trader_Name" #Local_Trader_Name="ngModel" [(ngModel)]="service.formData.local_Trader_Name" class="form-control" required>
+      <div class="validation-error" *ngIf="Local_Trader_Name.invalid && Local_Trader_Name.touched">This field is required.</div>
+    </div>
+    <div class="form-group">
+      <label style="color:black;">Local Buying Price:</label>
+      <input name="Local_Buying_Price" #Local_Buying_Price="ngModel" [(ngModel)]="service.formData.local_Buying_Price" class="form-control">
+      <div class="validation-error" *ngIf="Local_Buying_Price.invalid && Local_Buying_Price.touched">This field is required.</div>
+    </div>
+
+    <div class="form-group">
+        <label style="color:black;">Transportation_Cost:</label>
+        <input name="Transportation_Cost" #Transportation_Cost="ngModel" [(ngModel)]="service.formData.transportation_Cost" class="form-control">
+        <div class="validation-error" *ngIf="Transportation_Cost.invalid && Transportation_Cost.touched">This field is required.</div>
+      </div>
+
+      <div class="form-group">
+          <label style="color:black;"> Storing_Cost :</label>
+          <input name="Storing_Cost" #Storing_Cost="ngModel" [(ngModel)]="service.formData.storing_Cost" class="form-control">
+          <div class="validation-error" *ngIf="Storing_Cost.invalid && Storing_Cost.touched">This field is required.</div>
+        </div>
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label style="color:black;">Total_Cost:</label>
+        <input name="Total_Cost" #Total_Cost="ngModel" [(ngModel)]="service.formData.total_Cost" class="form-control">
+       <div class="validation-error" *ngIf="Total_Cost.invalid && Total_Cost.touched">This field is required.</div>
+      </div>
+
+      <!--<div class="form-group  col-md-6">
+        <label>MOBILE</label>
+        <input name="Mobile" #Mobile="ngModel" [(ngModel)]="service.formData.Mobile" class="form-control">
+      </div>-->
+      
+    </div>
+    <div class="form-group col-md-3">
+      <button type="submit" [disabled]="form.invalid" class="btn btn-lg btn-block">SUBMIT</button>
+    </div>
+  </form>

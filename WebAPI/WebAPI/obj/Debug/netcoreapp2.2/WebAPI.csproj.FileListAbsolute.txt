@@ -1,0 +1,83 @@
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+F:\profession\CodAffection\Asp.Net Core\User Registration - API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+F:\profession\CodAffection\Asp.Net Core\JWT Auth with API and Angular 7\project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\Farid\Desktop\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+G:\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+G:\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+G:\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+G:\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+G:\PPPPPppp\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+G:\PPPPPppp\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+C:\Users\A.S\Desktop\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+C:\Users\A.S\Desktop\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+C:\Users\A.S\Desktop\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+C:\Users\A.S\Desktop\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\A.S\Desktop\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+C:\Users\A.S\Desktop\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
+G:\GitRepository\Agro_project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+G:\GitRepository\Agro_project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+G:\GitRepository\Agro_project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+G:\GitRepository\Agro_project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+G:\GitRepository\Agro_project\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
+G:\GitRepository\Agro_project\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
